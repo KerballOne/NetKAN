@@ -23,7 +23,5 @@ conflicts:
 depends:
   - name: ModuleManager
 install:
-  - find: NecroBones
+  - find: ModularRocketSystems
     install_to: GameData
-  - find: Ships/SPH
-    install_to: Ships

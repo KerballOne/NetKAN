@@ -1,0 +1,16 @@
+identifier: LandingAIM
+$kref: '#/ckan/github/linuxgurugamer/Landing-Aim'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: LandingAIM
+$kref: '#/ckan/spacedock/1365'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+  - information
+depends:
+  - name: ModuleManager
+install:
+  - find: LandingAim
+    install_to: GameData
+    filter_regexp: .*\.pdb$

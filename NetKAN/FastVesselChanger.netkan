@@ -1,0 +1,7 @@
+identifier: FastVesselChanger
+$kref: '#/ckan/github/AdmiralRadish/FastVesselChanger'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin
+  - control

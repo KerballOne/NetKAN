@@ -1,0 +1,25 @@
+identifier: IXSWarpship-Blueshift
+name: IXSWarpship for Blueshift
+$kref: '#/ckan/github/linuxgurugamer/IXS-Warpship-for-Blueshift'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+x_netkan_epoch: '2'
+tags:
+  - config
+  - parts
+  - crewed
+depends:
+  - name: ModuleManager
+  - name: IXSWarpshipOS
+  - name: Blueshift
+  - name: FlyingSaucers
+  - name: Waterfall
+  - name: CommunityResourcePack
+suggests:
+  - name: SpaceDust
+  - name: CommunityTechTree
+  - name: FarFutureTechnologies
+  - name: OuterPlanetsMod
+install:
+  - find: IXSWarshipsBlueshift
+    install_to: GameData
